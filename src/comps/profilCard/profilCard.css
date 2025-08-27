@@ -1,0 +1,30 @@
+.card {
+  border: 1px solid #333;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0px 0px 10px 2px #18132e;
+  border-radius: 10px;
+  background-color: rgb(223, 223, 255);
+  transition: 500ms ease-out;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  background-color: rgb(180, 180, 255);
+  transition: 500ms ease-in;
+}
+
+.img {
+  width: 30px;
+  border: 1px solid #888;
+  border-radius: 30px;
+}
+
+.h3 {
+  padding: 15px 0;
+}
+
+.p {
+  color: #555;
+}

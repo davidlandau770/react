@@ -1,4 +1,5 @@
-import Button from "./Button";
+import "./profilCard.css";
+import Button from "../butten/Button";
 
 export default function ProfilCard(props: any) {
     return (

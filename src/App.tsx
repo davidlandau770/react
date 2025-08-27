@@ -1,20 +1,14 @@
-import Footer from "./comps/Footer";
-import ProfilCard from "./comps/profilCard";
-import Title from "./comps/title";
+import Container from "./comps/container/Container";
+import Footer from "./comps/footer/Footer";
+import Title from "./comps/title/Title";
+import "./App.css";
 
 export default function App() {
   return (
     <>
       <Title />
-      <div id="container">
-        <ProfilCard name="Friend" />
-        <ProfilCard name="Teacher" />
-        <ProfilCard name="Student" />
-        <ProfilCard name="Friend" />
-        <ProfilCard name="Teacher" />
-        <ProfilCard name="Student" />
-      </div>
-        <Footer />
+      <Container />
+      <Footer />
     </>
   )
 }
